@@ -1,0 +1,21 @@
+How to run the code:
+
+1) save the venv in a folder
+2) activate the virtual environment
+	==> cd venv
+	==> scripts\activate
+	==> cd ..
+
+	
+3) open the dvideo.py file
+	change the path of the pytesseract as given below
+	==>change path untill test-env eg 'C:/xxxxxxxxxxxx/venv/Lib/tesseract.exe'
+	
+4)Run the python file.
+	==> python dvideo.py
+
+The videos are stored in data/video folder.
+The output will come in detection folder.
+The crop number plate images will show up in detection/frames folder.
+The video will also be outputed in detection folder.
+The OCR result will get printed in the cmd/command prompt.
